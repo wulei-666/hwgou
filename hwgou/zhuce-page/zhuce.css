@@ -1,0 +1,26 @@
+html{font-size:7.4129vw;}
+
+.margin{width:10.6rem;margin:0 auto;}
+
+.logo{height:.8rem;}
+.logo .margin{align-items: center;display: flex;height:.8rem;}
+.logo .margin img{width:3.35rem;height:.6rem;}
+.logo .margin span{font-size:.22rem;color:#7b7b7b;}
+
+.tu{height:4.76rem;background: #c7253c}
+.tu .margin{height:4.76rem;position: relative;}
+.tu .margin img{width:9.9rem;height:4.76rem;}
+.tu .margin .login{width:3.92rem;height:3.22rem;background: #fff;position: absolute;left: 7.5rem;top: .5rem;}
+.tu .margin .login p{font:.18rem/.55rem "";border-bottom:.01rem solid #f4f4f4;padding-left:.2rem;}
+.tu .margin .login .he{text-align: center;padding-top:.3rem;width:3.92rem;}
+.tu .margin .login .yhm{height:.4rem;font-size:.15rem;margin-bottom:.05rem;}
+.tu .margin .login .yhm input{padding-left:.1rem;width:3rem;height:.3rem;border:.01rem solid #bdbdbd;font-size:.12rem;}
+.tu .margin .login .mm{height:.4rem;font-size:.15rem;}
+.tu .margin .login .mm input{padding-left:.1rem;width:3rem;height:.3rem;border:.01rem solid #bdbdbd;font-size:.12rem;}
+/* .tu .margin .login .bc{width:3.92rem;font:.14rem/.4rem "";color:#666;padding-left:.2rem;} */
+.tu .margin .login .dl input{font-size:.18rem;color:#fff;margin:.1rem 0 0 .2rem;width:3.5rem;height:.35rem;border:none;background: #e4393c;border-radius: .05rem;}
+.tu .margin .login .dl input:hover{cursor: pointer;}
+
+footer{background: #eaeaea;height:.8rem;}
+footer .margin .footer-p{margin:0 auto;text-align: center;}
+footer .margin .footer-p p{font:.12rem/2 "";color:#999;}

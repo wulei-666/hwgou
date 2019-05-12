@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*清除所有元素自带边框*/
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,td,figure{margin:0;padding:0;}
+ 
+/*常见字体大小可以更改*/
+body{font:12px  “宋体”; word-wrap:break-word/*长单词换行*/;}
+
+/*清除超链接、下划线、删除线的下划线*/
+a,u,s,del{color:#666;text-decoration:none}
+
+/*清除边框宽度*/
+fieldset,a img,.bor0{border:0;}
+
+/*设置文本字体正常*/
+i,em,b{font-style:normal;font-weight:100;}
+
+/*让行内块和右边的元素对齐，只给img用*/
+img{vertical-align:middle;} 
+
+/*表格table中合并相临边框*/
+table{border-collapse:collapse;}
+
+.ind2{text-indent:2em;}/*首行缩进两字符。。记得加class*/
+
+/*禁止表单拖动*/
+textarea{resize:none;}
+
+/*清除li前面的原点*/
+li{list-style:none;}
+
+/*还差一个width就可以实现省略号功能*/
+.over{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+
+/*图片或文字垂直对齐*/
+.valign{text-align:center;}
+.valign img{vertical-align:middle;}/*与上面的img属性重复，但不影响，此处只是为了更好的理解*/
+.valign:after{content:"";display:inline-block;vertical-align:middle;height:100%;}
+
+/*万能清除法*/
+.clear:before{content:"";display:table;}/*阻止margin-top向上传递*/
+.clear:after{content:"";display:block;clear:both;}/*清除浮动*/
+
+/*弹性盒水平垂直居中*/
+.flexc{display:flex;justify-content:center;align-items:center;}
+
+
+
+/*移动端布局meta
+
+<meta name="viewport'' content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
+*/
+
+
+
+
+
+
+
+
